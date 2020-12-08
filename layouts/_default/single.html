@@ -1,0 +1,12 @@
+{{ define "main" }}
+	<main>
+		<article>
+			<h1 class="posttitle">{{ .Title }}</h1>
+			<time>{{ .Date.Format "Jan 2, 2006" }}</time>
+      {{ .Content }}
+      {{ template "_internal/disqus.html" . }}
+	    <time class="timestamp">Last update: {{ .Lastmod.Format "02/01/2006 15:04" }}</time>
+		</article>
+	</main>
+{{ partial "sidebar.html" . }}
+{{ end }}

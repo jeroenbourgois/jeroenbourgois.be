@@ -1,0 +1,8 @@
+<header class="site-header">
+  <nav class="nav">
+    <ul>
+      {{ range .Site.Menus.main }}<li>{{ $text := print .Name | safeHTML }}<a href="{{ .URL }}">{{ $text }}</a></li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>

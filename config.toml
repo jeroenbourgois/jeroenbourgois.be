@@ -1,0 +1,23 @@
+baseURL = "https://jeroenbourgois.be"
+languageCode = "nl-BE"
+title = "Jeroen Bourgois"
+theme = "blank"
+enableRobotsTXT = true
+# uglyurls = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    pre = "edit"
+    url = "/blog/"
+    weight = 2
+  [[menu.main]]
+    name = "Notes"
+    pre = "edit"
+    url = "/notes/"
+    weight = 3
