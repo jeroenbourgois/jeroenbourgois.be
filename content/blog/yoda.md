@@ -10,6 +10,6 @@ My son - and admittedly myself - were thrilled to get a new pet today: Yoda! It 
 
 ![](/images/yoda/welcome.jpg)
 
-_Yoda, Testudo marginata, Belgium, May 2021_
+_Yoda, testudo marginata, Belgium, May 2021_
 
 * note: this picture was just a quick moment in the garden, with plenty of sun. It is not his regular enclosure, which obviously is inside with a lamp and all that.
