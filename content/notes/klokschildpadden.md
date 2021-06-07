@@ -15,6 +15,10 @@ rozemarijn, salie, tijm, kaasjeskruid, heidekruid, sint-janskruid, moeraswederik
 
 I have sword fern, gerber daisy, phlox, moss rose, geranium, violas and others I can't think of. However, I have never seen a box turtle take a bite of a living plant.
 
+Zie ook:
+
+http://www.testudo.be/verzorging.html
+
 
 # Huisvesting
 
