@@ -27,9 +27,34 @@ h3 {
   font-size: 1.0125em;
 }
 
+figure {
+  padding: 0;
+  margin: 0;
+  background: #fff5be;
+}
+
+figure a,
+figure img {
+  width: 100%;
+  display: block;
+}
+
+figure > figcaption {
+  text-align: center;
+  width: 100%;
+  font-family: courier;
+  font-size: 12px;
+  display: block;
+}
+
+figure > figcaption > p {
+  padding: 5px;
+  margin-top: 0;
+}
+
 .read-more {
   display: block;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 main {

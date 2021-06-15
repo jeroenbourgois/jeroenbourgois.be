@@ -3,7 +3,17 @@
 		<article>
 			<h1 class="posttitle">{{ .Title }}</h1>
 			<time>{{ .Date.Format "Jan 2, 2006" }}</time>
-      {{ .Content }}
+
+ {{ $reAltIn := "<p><img src=\"([^\"]+)\" alt=\"([^\"]+)\" /></p>" }}
+  {{ $reAltOut := "<figure><img src=\"$1\" alt=\"$2\"><figcaption>$2</figcaption></figure>" }}
+  {{ $altContent := .Content | replaceRE $reAltIn $reAltOut | safeHTML }}
+
+  {{ $reAltTitleIn := "<p><img src=\"([^\"]+)\" alt=\"([^\"]+)\" title=\"([^\"]+)\" /></p>" }}
+  {{ $reAltTitleOut := "<figure><img src=\"$1\" alt=\"$2\" title=\"$3\"><figcaption>$2</figcaption></figure>" }}
+  {{ $finalContent := $altContent | replaceRE $reAltTitleIn $reAltTitleOut | safeHTML }}
+
+      {{ $finalContent }}
+
       {{ template "_internal/disqus.html" . }}
 	    <time class="timestamp">Last update: {{ .Lastmod.Format "02/01/2006 15:04" }}</time>
 		</article>
