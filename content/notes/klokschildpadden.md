@@ -14,12 +14,12 @@ Schildpadden eten voornamelijk voedsel dat rijk is aan vezels en veelal arm aan 
 
 ### Eetbare kruiden
 
-[klaver]()
-[melkdistel]()
-[paardebloem]()
-[Sint-Jakobskruid]()
-[vogelmuur]()
-[witte dovenetel]()
+[klaver](https://nl.wikipedia.org/wiki/Rode_klaver)
+[melkdistel](https://nl.wikipedia.org/wiki/Melkdistel)
+[paardebloem](https://nl.wikipedia.org/wiki/Paardenbloem)
+[jakobskruid](https://nl.wikipedia.org/wiki/Jakobskruid)
+[vogelmuur](https://nl.wikipedia.org/wiki/Vogelmuur)
+[witte dovenetel](https://nl.wikipedia.org/wiki/Witte_dovenetel)
 
 ### Andere veilige en eetbare planten
 
@@ -81,6 +81,18 @@ Enkele foto's van de uitbouw van ons eerste buitenverblijf voor Yoda:
 {{< figure src="/images/yoda/buitenhok-beplanting.jpg" link="/images/yoda/buitenhok-beplanting-l.jpg" caption="Eerste poging met beplanting, net tijdens een eerste warme en droge periode. Enkel de geranium overleefde. Er ligt een mooie grote platte steen om op te voederen en in te zonnen. Verder een aantal plekken om zich te verstoppen." >}}
 
 Deel twee volgt nog, met een afrastering en plexi kader bovenop het verblijf.
+
+# Yoda
+
+Onze schildpad is Yoda, we hebben hem sinds het voorjaar van 2020.
+
+![](/images/yoda/welcome.jpg)
+
+## Gewichtscurve
+
+{{< figure src="/images/yoda/stats-weight.jpeg" caption="Weight stats for Yoda" >}}
+
+
 
 # Nuttige links
 
