@@ -21,3 +21,8 @@ enableRobotsTXT = true
     pre = "edit"
     url = "/notes/"
     weight = 3
+  [[menu.main]]
+    name = "Links"
+    pre = "edit"
+    url = "/links/"
+    weight = 4

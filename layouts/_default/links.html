@@ -1,0 +1,13 @@
+{{ define "main" }}
+	<main>
+		<article>
+			<h1 class="posttitle">{{ .Title }}</h1>
+
+      <ul>
+        <li>⛅ <a href="https://www.awekas.at/nl/instrument.php?id=19890">Awekas (weather station)</a></li>
+        <li>⛅ <a href="https://www.wunderground.com/dashboard/pws/IZWEVE15">Wunderground (weather station)</a></li>
+      </ul>
+		</article>
+	</main>
+{{ partial "sidebar.html" . }}
+{{ end }}
