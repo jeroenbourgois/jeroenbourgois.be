@@ -84,7 +84,7 @@ Deel twee volgt nog, met een afrastering en plexi kader bovenop het verblijf.
 
 # Yoda
 
-Onze schildpad is Yoda, we hebben hem sinds het voorjaar van 2020.
+Onze schildpad is Yoda, we hebben hem sinds het voorjaar van 2021.
 
 ![](/images/yoda/welcome.jpg)
 
