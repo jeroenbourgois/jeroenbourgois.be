@@ -72,6 +72,8 @@ Enkele foto's van de uitbouw van ons eerste buitenverblijf voor Yoda:
 
 {{< figure src="/images/yoda/buitenhok-locatie.jpg" link="/images/yoda/buitenhok-locatie.jpg" caption="Mooi tussen de moerbeiboom en het rozenperk, veel zon en met tijd een tikje schaduw." >}}
 
+#### Opbouw onderste frame
+
 {{< figure src="/images/yoda/buitenhok-sleuven.jpg" link="/images/yoda/buitenhok-sleuven-l.jpg" caption="We hadden nog een aantal betonplaten van 200 cm x 40 cm x 3,5 cm liggen hier achteraan en dat leek mij ideaal om als afboording te gebruiken. Ze zitten 20 cm in de grond en steken dus nog zo'n 20 cm uit. Gezien de grootte van de schildpad (6 cm) zal dit wel <a href=''> even</a> dienst doen." >}}
 
 {{< figure src="/images/yoda/buitenhok-eerste-plaat.jpg" link="/images/yoda/buitenhok-eerste-plaat-l.jpg" caption="" >}}
@@ -80,7 +82,16 @@ Enkele foto's van de uitbouw van ons eerste buitenverblijf voor Yoda:
 
 {{< figure src="/images/yoda/buitenhok-beplanting.jpg" link="/images/yoda/buitenhok-beplanting-l.jpg" caption="Eerste poging met beplanting, net tijdens een eerste warme en droge periode. Enkel de geranium overleefde. Er ligt een mooie grote platte steen om op te voederen en in te zonnen. Verder een aantal plekken om zich te verstoppen." >}}
 
-Deel twee volgt nog, met een afrastering en plexi kader bovenop het verblijf.
+#### Afwerking bovenste frame
+
+{{< figure src="/images/yoda/buitenhok-ext-kader.jpg" link="/images/yoda/buitenhok-ext-kader-l.jpg" caption="" >}}
+
+{{< figure src="/images/yoda/buitenhok-ext-kader-plexi.jpg" link="/images/yoda/buitenhok-ext-kader-plexi-l.jpg" caption="Houten kader voor plexiglas" >}}
+
+{{< figure src="/images/yoda/buitenhok-ext-openstaand.jpg" link="/images/yoda/buitenhok-ext-openstaand-l.jpg" caption="" >}}
+{{< figure src="/images/yoda/buitenhok-ext-openstaand-close.jpg" link="/images/yoda/buitenhok-ext-openstaand-close-l.jpg" caption="" >}}
+
+{{< figure src="/images/yoda/buitenhok-ext-yoda-zonnen.jpg" link="/images/yoda/buitenhok-ext-yoda-zonnen-l.jpg" caption="One happy camper 🐢" >}}
 
 # Yoda
 
