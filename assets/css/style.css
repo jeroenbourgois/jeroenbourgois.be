@@ -164,10 +164,17 @@ pre,
 code {
   font-size: 16px;
   word-wrap: break-word;
+  font-family: "Monaco", monospace;
 }
 pre {
-  margin-left: 1.5em;
   line-height: 1.2;
+  background: #efefef;
+  padding: 10px;
+  width: 100%;
+  display: block;
+  overflow-x: scroll;
+}
+pre code {
 }
 a {
   color: blue;
