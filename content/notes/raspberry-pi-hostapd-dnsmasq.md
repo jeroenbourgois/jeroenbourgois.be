@@ -117,12 +117,12 @@ Contents:
 interface=wlan0
 driver=nl80211
 channel=6
-ssid=pi_fi
+ssid=YOUR_NETWORK_SSID
 country_code=BE
 hw_mode=g
 auth_algs=1
 wpa=2
-wpa_passphrase=pi_fi_me
+wpa_passphrase=YOUR_PASS
 wpa_key_mgmt=WPA-PSK
 wpa_pairwise=TKIP
 
