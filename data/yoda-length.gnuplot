@@ -3,7 +3,7 @@ set xlabel "Date"
 set xdata time 
 set timefmt "%d/%m/%Y"         # specify our time string format
 set format x "%m/%d"           # tell gnuplot x are dates, and show the format
-set ylabel "Weight in g"
+set ylabel "Length in mm"
 set terminal jpeg;
 set termoption font "Courier,12"
 set datafile separator ';'
