@@ -10,11 +10,11 @@ html {
 
 body {
   background: #fff;
-  max-width: 40em;
-  margin: 0 auto;
   color: #000;
   font-size: 16px;
   line-height: 1.4;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -30,6 +30,7 @@ h3 {
 figure {
   padding: 0;
   margin: 0;
+  max-width: 50rem;
   background: #fff5be;
 }
 
@@ -59,8 +60,8 @@ figure > figcaption > p {
 
 main {
   width: 100%;
+  max-width: 60em;
   padding: 10px;
-  margin: 0 auto;
 }
 
 aside {
