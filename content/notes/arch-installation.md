@@ -1,8 +1,12 @@
 ---
 title: "Arch installation"
-date: 2021-11-14T22:19:07+01:00
+date: 2021-11-13T22:19:07+01:00
 draft: false
 ---
+
+Steps to get up and running with Arch Linux.
+
+<!--more-->
 
 Boot arch iso
 
