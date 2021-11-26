@@ -18,9 +18,6 @@ setfont ter-132n
 # check IP
 ip a
 
-# sync repos
-pacman -Sy
-
 # partition & mount
 lsblk
 
@@ -57,6 +54,9 @@ mkdir /mnt/home
 mount /dev/sda1 /mnt/boot/efi
 mount /dev/sda4 /mnt/home
 
+# sync repos
+pacman -Sy
+
 # base install
 pacstrap /mnt base linux linux-firmware linux-headers git vim
 
@@ -85,14 +85,23 @@ umount -a
 reboot
 
 # refresh package servers
-sudo pacman -Sy
-
-# copy install script
+# sudo reflector -c Belgium -a 12 --sort rate --save /etc/pacman.d/mirrorlist
 
 sudo flatpak install -y spotify
-sudo pacman -S i3 kitty lxappearance feh thunar
 
 # default X config
 cp /etc/X11/xinit/xinitrc ~/.xinitrc
 vim ~/.xinitrc # at the bottom add 'exec i3'
+
+# update .zshrc
+
+if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
+  exec startx
+fi
+
 ```
+
+Also see:
+
+- https://confluence.jaytaala.com/display/TKB/My+Manjaro+i3+setup
+- https://faq.i3wm.org/question/6126/how-do-i-start-i3/index.html
