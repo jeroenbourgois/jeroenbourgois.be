@@ -221,7 +221,7 @@ conn: %Plug.Conn{
   host: "rtupdate.wunderground.com",
   params: %{
     "ID" => "IZWEVE15",
-    "PASSWORD" => "DyLBOAVR",
+    "PASSWORD" => "***",
     "UV" => "3.1",
     "action" => "updateraww",
     "baromin" => "30.19",
@@ -241,15 +241,15 @@ conn: %Plug.Conn{
     "windspeedmph" => "5.1"
   },
   path_info: ["weatherstation", "updateweatherstation.php"],
-  query_string: "ID=IZWEVE15&PASSWORD=DyLBOAVR&action=updateraww&realtime=1&rtfreq=5&dateutc=now&baromin=30.19&tempf=65.1&dewptf=57.2&humidity=76&windspeedmph=5.1&windgustmph=5.5&winddir=241&rainin=0.0&dailyrainin=0.01&solarradiation=302.10&UV=3.1&indoortempf=73.5&indoorhumidity=60",
+  query_string: "ID=IZWEVE15&PASSWORD=****&action=updateraww&realtime=1&rtfreq=5&dateutc=now&baromin=30.19&tempf=65.1&dewptf=57.2&humidity=76&windspeedmph=5.1&windgustmph=5.5&winddir=241&rainin=0.0&dailyrainin=0.01&solarradiation=302.10&UV=3.1&indoortempf=73.5&indoorhumidity=60",
 }
 
 13:42:05.443 [info]  GET /weatherstation/updateweatherstation.php
 conn: %Plug.Conn{
   host: "ws.awekas.at",
   params: %{
-    "ID" => "jeroenb",
-    "PASSWORD" => "AEA!upu3gpu!fhb9nzb",
+    "ID" => "USERNAME",
+    "PASSWORD" => "*****",
     "UV" => "3.1",
     "action" => "updateraww",
     "baromin" => "30.19",
@@ -269,7 +269,7 @@ conn: %Plug.Conn{
     "windspeedmph" => "5.1"
   },
   path_info: ["weatherstation", "updateweatherstation.php"],
-  query_string: "ID=jeroenb&PASSWORD=AEA!upu3gpu!fhb9nzb&action=updateraww&realtime=1&rtfreq=5&dateutc=now&baromin=30.19&tempf=65.1&dewptf=57.2&humidity=76&windspeedmph=5.1&windgustmph=5.5&winddir=241&rainin=0.0&dailyrainin=0.01&solarradiation=302.10&UV=3.1&indoortempf=73.5&indoorhumidity=60",
+  query_string: "ID=USERNAME&PASSWORD=****&action=updateraww&realtime=1&rtfreq=5&dateutc=now&baromin=30.19&tempf=65.1&dewptf=57.2&humidity=76&windspeedmph=5.1&windgustmph=5.5&winddir=241&rainin=0.0&dailyrainin=0.01&solarradiation=302.10&UV=3.1&indoortempf=73.5&indoorhumidity=60",
   request_path: "/weatherstation/updateweatherstation.php",
 }
 
