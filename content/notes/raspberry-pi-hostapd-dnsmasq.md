@@ -24,6 +24,7 @@ Plug in ethernet cable, connect to screen and boot.
 Find the IP address of the Pi (Mijn Telenet).
 
 SSH into the Pi:
+
 ```
 ssh pi@IP # password will be 'raspberry' by default
 ```
@@ -35,6 +36,7 @@ Configure the country code for wifi. While you are at it, also change locale & t
 ```
 sudo raspi-config # then choose '5. Location Options' and set your country
 ```
+
 You will need to reboot after this.
 
 Update & upgrade the base system:
@@ -42,6 +44,9 @@ Update & upgrade the base system:
 ```
 sudo apt update
 sudo apt full-upgrade
+
+# this is optional if you prefer nano or just plain vi
+sudo ap install vim
 ```
 
 ## Install & configure dnsmasq
@@ -78,7 +83,6 @@ dhcp-range=192.168.10.50,192.168.10.100,255.255.255.0,24h
 ## Configure dhcpd (static ip of the pi)
 
 Edit `/etc/dhcpcd.conf`
-
 
 ```
 sudo vi /etc/dhcpcd.conf
@@ -168,6 +172,7 @@ net.ipv4.ip_forward=1
 But we need to mask our IP address, which we can do using `iptables`:
 
 ```
+sudo apt install iptables
 sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 ```
 
@@ -189,7 +194,6 @@ exit 0
 
 Reboot.
 
-
 ## Run a webserver with an app to forward
 
 Install Elixir and erlang using `asdf`. This is slower than the official install but has no issues on the Pi.
@@ -210,6 +214,7 @@ sudo apt install sqlite3
 
 Example payload:
 q
+
 ```
 13:42:04.819 [info]  GET /weatherstation/updateweatherstation.php
 conn: %Plug.Conn{
@@ -271,7 +276,6 @@ conn: %Plug.Conn{
 ```
 
 install aws cli
-
 
 ### References
 
