@@ -46,7 +46,7 @@ sudo apt update
 sudo apt full-upgrade
 
 # this is optional if you prefer nano or just plain vi
-sudo ap install vim
+sudo apt install vim
 ```
 
 ## Install & configure dnsmasq
