@@ -34,7 +34,7 @@ Update the password with `passwd`
 Configure the country code for wifi. While you are at it, also change locale & timezone in the settings. This will prevent Perl locale errors.
 
 ```
-sudo raspi-config # then choose '5. Location Options' and set your country
+sudo raspi-config nonint do_wifi_country BE
 ```
 
 You will need to reboot after this.
