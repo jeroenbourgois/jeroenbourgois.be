@@ -41,18 +41,18 @@ gdisk /dev/sda
 lsblk
 
 # format disks
-mkfs.vfat -F32 /dev/sda1
-mkswap /dev/sda2
-swapon /dev/sda2
-mkfs.ext4 /dev/sda3
-mkfs.ext4 /dev/sda4
+mkfs.vfat -F32 /dev/nvme0n1p1
+mkswap /dev/nvme0n1p2
+swapon /dev/nvme0n1p2
+mkfs.ext4 /dev/nvme0n1p3
+mkfs.ext4 /dev/nvme0n1p4
 
 # mount partitions
-mount /dev/sda3 /mnt
+mount /dev/nvme0n1p3 /mnt
 mkdir -p /mnt/boot/efi
 mkdir /mnt/home
-mount /dev/sda1 /mnt/boot/efi
-mount /dev/sda4 /mnt/home
+mount /dev/nvme0n1p1 /mnt/boot/efi
+mount /dev/nvme0n1p4 /mnt/home
 
 # sync repos
 pacman -Sy
@@ -64,7 +64,7 @@ pacstrap /mnt base linux linux-firmware linux-headers git vim
 genfstab -U /mnt >> /mnt/etc/fstab
 
 # now enter the new installation
-arch-chroot
+arch-chroot /mnt
 
 # run install script
 git clone https://gist.github.com/jeroenbourgois/ba337f0ffca32614bd740779b152ce70
