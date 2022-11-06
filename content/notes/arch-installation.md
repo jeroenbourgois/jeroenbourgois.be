@@ -24,8 +24,8 @@ lsblk
 gdisk /dev/sda
 
 # inside gdisk create 3 partitions:
-# - boot (EFI) 250M
-# - swap 2GB
+# - boot (EFI) 500M
+# - swap 2GB (not needed...)
 # - root 25GB
 # - home remaining
 #
@@ -49,9 +49,9 @@ mkfs.ext4 /dev/nvme0n1p4
 
 # mount partitions
 mount /dev/nvme0n1p3 /mnt
-mkdir -p /mnt/boot/efi
+mkdir -p /mnt/boot
 mkdir /mnt/home
-mount /dev/nvme0n1p1 /mnt/boot/efi
+mount /dev/nvme0n1p1 /mnt/boot
 mount /dev/nvme0n1p4 /mnt/home
 
 # sync repos
@@ -74,10 +74,12 @@ vim /etc/mkinitcpio.conf
 mkinitcpio -p linux
 
 # edit grub
-vim /etc/default/grub
+# vim /etc/default/grub
 # > GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet video=1920x1080"
 # > GRUB_GFXMODE=1920x1080
 grub-mkconfig -o /boot/grub/grub.cfg
+
+# setup systemd-boot
 
 # now exit installation and reboot
 exit
