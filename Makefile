@@ -9,3 +9,7 @@ yoda_stats:
 	echo "==> Gen Yoda stats"
 	cd ./data && gnuplot  yoda-weight.gnuplot > ../static/images/yoda/stats-weight.jpeg
 	cd ./data && gnuplot  yoda-length.gnuplot > ../static/images/yoda/stats-length.jpeg
+
+docker_run:
+	docker build -t jeroenbourgoisbe .
+	docker run --name jeroenbourgoisbe -p 8080:80 -d jeroenbourgoisbe
